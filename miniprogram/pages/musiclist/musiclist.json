@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "lgk-musiclist":"/components/musiclist/musiclist"
+  }
+}

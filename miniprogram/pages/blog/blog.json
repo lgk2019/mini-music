@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "lgk-search":"/components/search/search",
+    "lgk-login":"/components/login/login",
+    "lgk-blog-card":"/components/blog-card/blog-card"
+  },
+  "navigationBarTitleText": "发现"
+}

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "lgk-playlist":"/components/playlist/playlist"
+  },
+  "enablePullDownRefresh":true
+}

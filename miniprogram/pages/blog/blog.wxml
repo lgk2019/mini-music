@@ -1,0 +1,23 @@
+<view class="container">
+  <!-- 发现页面的头部 -->
+  <view class="header">
+    <view class="publish-container" bind:tap="onPublish">
+      <i class="iconfont icon-release-1-copy"></i>
+    </view>
+    <view class="search-container">
+      <lgk-search />
+    </view>
+  </view>
+  <!-- 博客卡片列表 -->
+  <view class="blog-list">
+    <block wx:for="{{blogList}}" wx:key="_id">
+      <view class="blog-panel">
+        <lgk-blog-card blog="{{item}}" />
+      </view>
+    </block>
+  </view>
+  <!-- 底部弹出框 -->
+  <lgk-login modalShow="{{modalShow}}" bind:loginsuccess="onLoginSuccess" bind:loginfail="onLoginFail">
+
+  </lgk-login>
+</view>
