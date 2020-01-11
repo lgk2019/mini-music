@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "lgk-login":"/components/login/login",
+    "lgk-bottom-modal":"/components/bottom-modal/bottom-modal"
+  }
+}

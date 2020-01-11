@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "lgk-blog-card":"/components/blog-card/blog-card",
+    "lgk-blog-ctrl":"/components/blog-ctrl/blog-ctrl"
+  },
+  "navigationBarTitleText":"详情"
+}
