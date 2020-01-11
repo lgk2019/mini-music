@@ -7,9 +7,9 @@
 
 <view class="nav">
   <view class="nav-item">
-    <navigator class="content" hover-class="none" url="/pages/profile-playhistory/profile-playhistory">
+    <navigator class="content" hover-class="none" url="/pages/profile-bloghistory/profile-bloghistory"><!-- url="/pages/profile-playhistory/profile-playhistory" -->
       <i class="iconfont icon-ziyuanldpi"></i>
-      <text class="text">最近播放</text>
+      <text class="text">最近播放暂时没做好</text>
       <i iconfont icon-xiangyou></i>
     </navigator>
   </view>

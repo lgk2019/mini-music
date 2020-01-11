@@ -62,7 +62,7 @@ Component({
       query.select('.movable-area').boundingClientRect()
       query.select('.movable-view').boundingClientRect()
       query.exec((rect) => {
-        console.log(rect)
+        // console.log(rect)
         movableAreaWidth = rect[0].width
         movableViewWidth = rect[1].width
       })
