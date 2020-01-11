@@ -2,18 +2,19 @@
   "pages": [
     "pages/playlist/playlist",
     "pages/blog/blog",
-    "pages/profile/profile",
-    "components/playlist/playlist",
+    "pages/blog-edit/blog-edit",
     "pages/musiclist/musiclist",
     "pages/player/player",
-    "pages/blog-edit/blog-edit"
+    "pages/profile/profile",
+    "pages/blog-comment/blog-comment",
+    "pages/profile-playhistory/profile-playhistory",
+    "pages/profile-bloghistory/profile-bloghistory"
   ],
   "requiredBackgroundModes": [
-    "audio",
-    "location"
+    "audio"
   ],
   "window": {
-    "backgroundColor": "#F6F6F6",
+    "backgroundColor": "#f6f6f6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#d43c33",
     "navigationBarTitleText": "音乐",
@@ -43,6 +44,5 @@
       }
     ]
   },
-  "sitemapLocation": "sitemap.json",
-  "style": "v2"
+  "sitemapLocation": "sitemap.json"
 }

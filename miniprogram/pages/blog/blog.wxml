@@ -5,14 +5,15 @@
       <i class="iconfont icon-release-1-copy"></i>
     </view>
     <view class="search-container">
-      <lgk-search />
+      <lgk-search bind:search="onSearch" />
     </view>
   </view>
   <!-- 博客卡片列表 -->
   <view class="blog-list">
     <block wx:for="{{blogList}}" wx:key="_id">
       <view class="blog-panel">
-        <lgk-blog-card blog="{{item}}" />
+        <lgk-blog-card blog="{{item}}" data-blogid="{{item._id}}" bind:tap="goComment" />
+        <lgk-blog-ctrl blogId="{{item._id}}" blog="{{item}}" iconfont="iconfont" icon-pinglun="icon-pinglun" icon-fenxiang="icon-fenxiang" />
       </view>
     </block>
   </view>

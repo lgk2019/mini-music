@@ -2,7 +2,9 @@
   "usingComponents": {
     "lgk-search":"/components/search/search",
     "lgk-login":"/components/login/login",
-    "lgk-blog-card":"/components/blog-card/blog-card"
+    "lgk-blog-card":"/components/blog-card/blog-card",
+    "lgk-blog-ctrl":"/components/blog-ctrl/blog-ctrl"
   },
-  "navigationBarTitleText": "发现"
+  "navigationBarTitleText": "发现",
+  "enablePullDownRefresh":true
 }
