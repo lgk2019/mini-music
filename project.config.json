@@ -87,6 +87,13 @@
 					"pathName": "pages/blog-edit/blog-edit",
 					"query": "nickName=\"伫立\"&avatarUrl=\"https://wx.qlogo.cn/mmopen/vi_32/Ew1TicATFhibUBIZL…0WFWbrVtrvYX2oA0FcHWtRtCzFf7Om54r1ic6OVAvj20A/132\"",
 					"scene": null
+				},
+				{
+					"id": 6,
+					"name": "comment",
+					"pathName": "pages/blog-comment/blog-comment",
+					"query": "",
+					"scene": null
 				}
 			]
 		}
